@@ -1,0 +1,212 @@
+#panier {
+    text-align: left;
+    width: 719px;
+}
+
+#panier .thumb {
+    padding-right: 30px;
+    width: 100px;
+}
+
+#panier .spectacle {
+    width: 160px;
+}
+
+#panier .date {
+    width: 100px;
+    padding-right: 5px;
+}
+
+#panier .lieu {
+    width: 80px;
+    padding-right: 10px;
+}
+
+#panier .qty {
+    width: 60px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+#panier .prix {
+    width: 60px;
+    padding-right: 20px;
+}
+
+.panier-element {
+    width: 719px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    max-height: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panier-element h3 {
+    background: #8b0000;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+.panier-element .thumb {
+    padding-right: 15px;
+}
+
+.panier-element .thumb a img {
+    width: 100px;
+}
+
+.panier-element .spectacle {
+    width: 150px;
+    padding-right: 15px;
+}
+
+.panier-element .date {
+    width: 100px;
+    padding-right: 15px;
+}
+
+.panier-element .lieu {
+    width: 80px;
+    padding-right: 15px;
+}
+
+.panier-element .qty {
+    width: 60px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.panier-element .prix {
+    width: 60px;
+    padding-right: 15px;
+}
+
+.soustotal {
+    float: right;
+    padding-right: 20px;
+}
+
+.soustotal input {
+    width: 70px;
+}
+
+.confirm-btn {
+    float: right;
+    padding-right: 20px;
+}
+
+.timer input {
+    width: 70px;
+}
+
+#nav-paiement {
+    float: left;
+    width: 700px;
+    padding: 20px;
+}
+
+#nav-paiement ul {
+    display: inline;
+    float: left;
+        /*width:100%;*/
+    padding-left: 100px;
+}
+
+#nav-paiement li,
+#nav-paiement li.selected {
+    display: inline;
+    float: left;
+    width: 100px;
+    border-bottom: 5px solid #7f7f7f;
+    margin: 5px 10px;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Trebuchet MS";
+}
+
+#nav-paiement li:hover {
+    border-bottom: 5px solid #666666;
+}
+
+#nav-paiement li a {
+    color: #666666;
+    text-decoration: none;
+}
+
+#nav-paiement li a:hover, #nav-paiement li.selected a {
+    color: #666666;
+}
+
+#nav-paiement li.selected {
+    border-bottom: 5px solid #8b0000;
+}
+
+#nav-paiement li.selected a {
+    color: #8b0000;
+        /*text-decoration:none;*/;
+}
+
+#pmtinfo {
+    float: left;
+    width: 720px;
+    padding-top: 30px;
+}
+
+#pmtinfo .infos {
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#pmtinfo .cc {
+    float: left;
+    width: 360px;
+    padding-left: 15px;
+}
+
+#pmtinfo .label {
+    padding-top: 10px;
+}
+
+#pmtinfo input {
+    border: 1px solid #bbbbbb;
+}
+
+#confirmation {
+    float: left;
+    padding-top: 30px;
+    padding-left: 90px;
+    border: 0px;
+}
+
+#confirmation table {
+    width: 500px;
+    border: 1px solid #bbbbbb;
+    border-collapse: collapse;
+}
+
+#confirmation th {
+    background-color: #cccccc;
+    color: black;
+    border-collapse: collapse;
+    border: 1px solid #bbbbbb;
+}
+
+#confirmation td,tr {
+    padding: 5px;
+    border: 1px solid #bbbbbb;
+    border-collapse: collapse;
+}
+
+#confirm-mess {
+    padding: 10px;
+    margin: 15px 200px 15px 150px;
+    text-align: center;
+    background: #FFCC99;
+    border: 1px solid #7f7f7f;
+    color: #8b0000;
+    font-size: 12px;
+}

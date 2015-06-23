@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4"
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<display-name>Billetterie525</display-name>
+	
+	<servlet>
+		<servlet-name>IndexServlet</servlet-name>
+		<servlet-class>controller.IndexServlet</servlet-class>
+	</servlet>
+	    
+ 	<servlet>
+    	<servlet-name>SpectacleServlet</servlet-name>
+    	<servlet-class>controller.SpectacleServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet>
+    	<servlet-name>ListeSpectacleServlet</servlet-name>
+    	<servlet-class>controller.ListeSpectacleServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet>
+    	<servlet-name>ListeRechercheServlet</servlet-name>
+    	<servlet-class>controller.ListeRechercheServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	 <servlet>
+    	<servlet-name>ContactServlet</servlet-name>
+    	<servlet-class>controller.ContactServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet>
+    	<servlet-name>RepresentationServlet</servlet-name>
+    	<servlet-class>controller.RepresentationServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	 <servlet>
+    	<servlet-name>PaiementServlet</servlet-name>
+    	<servlet-class>controller.PaiementServlet</servlet-class>
+ 	</servlet>
+ 	
+ 	<servlet>
+    	<servlet-name>PanierServlet</servlet-name>
+    	<servlet-class>controller.PanierServlet</servlet-class>
+ 	</servlet>
+ 	
+ 		<servlet>
+    	<servlet-name>FactureServlet</servlet-name>
+    	<servlet-class>controller.FactureServlet</servlet-class>
+ 	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>IndexServlet</servlet-name>
+		<url-pattern>/index</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>SpectacleServlet</servlet-name>
+		<url-pattern>/spectacle</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ListeSpectacleServlet</servlet-name>
+		<url-pattern>/spectacleliste</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ListeRechercheServlet</servlet-name>
+		<url-pattern>/rechercheSpecs</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ContactServlet</servlet-name>
+		<url-pattern>/contact</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RepresentationServlet</servlet-name>
+		<url-pattern>/representation</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>PaiementServlet</servlet-name>
+		<url-pattern>/paiement</url-pattern>
+	</servlet-mapping>
+<!-- 
+ <servlet-mapping>
+		<servlet-name>ConfirmationServlet</servlet-name>
+		<url-pattern>/confirmation</url-pattern>
+	</servlet-mapping>
+ -->
+	
+	<servlet-mapping>
+		<servlet-name>PanierServlet</servlet-name>
+		<url-pattern>/panier</url-pattern>
+	</servlet-mapping>
+	
+		<servlet-mapping>
+		<servlet-name>FactureServlet</servlet-name>
+		<url-pattern>/facture</url-pattern>
+	</servlet-mapping>
+		
+	<listener>
+        <listener-class>controller.SessionListener</listener-class>
+ 	</listener>
+	
+	<session-config>
+ 		<session-timeout>1</session-timeout>
+ 	</session-config>
+	
+	<welcome-file-list>
+		<welcome-file>index</welcome-file>
+	</welcome-file-list>
+	
+	<error-page>  
+        <error-code>404</error-code>  
+        <location>/erreur.jsp</location>  
+    </error-page>
+    	
+</web-app>

@@ -1,0 +1,190 @@
+#spectacle {
+    font-size: 14px;
+    width: 720px;
+    height: 650px;
+    position: relative;
+    padding: 1px;
+    border: solid 1px #dedede;
+    float: left;
+    margin-right: 9px;
+    overflow: hidden;
+}
+
+#spectacle img {
+    max-width: 200px;
+    max-height: 148px;
+}
+
+#spectacle h3 {
+    background: #8b0000;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+#spectacle h5 {
+    font-size: 14px;
+}
+
+#spectacle {
+    font-size: 14px;
+    width: 720px;
+    height: 650px;
+    position: relative;
+    padding: 1px;
+    border: solid 1px #dedede;
+    float: left;
+    margin-right: 9px;
+    overflow: hidden;
+}
+
+#spectacle_box img {
+    max-width: 180px;
+    max-height: 133px;
+}
+
+#spectacle_box h3 {
+    background: #8b0000;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+.spectacle_box {
+    float: left;
+    width: 180px;
+    margin: 10px;
+}
+
+.spectacle_box img {
+    margin: 10px;
+}
+
+#schedule {
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    padding: 5px 0 7px 0;
+    border: solid 1px #dedede;
+    position: relative;
+    height: 114px;
+    overflow: hidden;
+}
+
+
+
+
+#schedule-holder {
+    width: 600px;
+    height: 94px;
+    position: relative;
+    overflow: hidden;
+    top: 10px;
+    left: 60px;
+}
+
+#schedule-holder ul {
+    list-style-type: none;
+    height: 94px;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+}
+
+#schedule-holder ul li {
+    float: left;
+    width: 96px;
+    height: 94px;
+    border-right: dashed 1px #ccc;
+    padding: 0 10px;
+}
+
+#schedule-holder ul li.last {
+    border-right: 0;
+}
+
+#schedule-holder .jcarousel-clip{ width:804px; height:94px; position:relative; overflow:hidden; }
+#more-schedule {
+    font-size: 0;
+    line-height: 0;
+}
+
+#more-schedule a {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 30px;
+    height: 32px;
+    text-indent: -4000px;
+    z-index: 3;
+}
+
+#more-schedule a.next {
+    background: url(images/next.gif);
+    left: 670px;
+}
+
+.more-schedule a.prev {
+    background: url(images/prev.gif);
+    left: 20px;
+}
+
+.list {
+    display: none;
+    height: auto;
+    margin: 0;
+    float: left;
+}
+
+.show {
+    display: none;
+}
+
+.hide:target + .show {
+    display: inline;
+}
+
+.hide:target {
+    display: none;
+}
+
+.hide:target ~ .list {
+    display: inline;
+}
+
+/*style the (+) and (-) */
+.hide, .show {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: #7f7f7f;
+    float: left;
+    color: #fff;
+}
+
+.hide:hover, .show:hover {
+    color: #eee;
+    text-shadow: 0 0 1px #666;
+    text-decoration: none;
+    box-shadow: 0 0 4px #222 inset;
+    opacity: 1;
+    margin-bottom: 25px;
+}
+
+.list p {
+    height: auto;
+    margin: 0;
+}
+
+.question {
+    float: left;
+    height: auto;
+    width: 90%;
+    line-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    font-style: italic;
+}
